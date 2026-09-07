@@ -111,6 +111,7 @@ ul {
     border-radius: 8px;
     margin-top: 10px;
 }
+
 figcaption {
     font-size: 0.85rem;
     color: #d59dc3b2;
@@ -127,7 +128,7 @@ figcaption {
 .galeria-grid img {
     border-radius: 8px;
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
     object-fit: cover;
 }
 

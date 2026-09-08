@@ -137,7 +137,30 @@ figcaption {
     margin-top: 10px;
 }
 
+.btn-portfolio {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #f48fb1 0%, #f8bbd0 100%);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px rgba(244, 143, 177, 0.3);
+  display: block;
+  width: fit-content;
+  margin: 16px auto 0;
+}
 
+
+.btn-portfolio:hover {
+  background: linear-gradient(135deg, #7CBF45 0%, #46C131 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(244, 143, 177, 0.5);
+  color: #ffffff;
+
+}
 .formulario-contato {
     display: flex;
     flex-direction: column;
